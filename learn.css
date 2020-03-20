@@ -1,0 +1,52 @@
+header {
+  background-color: #666;
+  color: white;
+  display: flex;
+}
+.logo{
+	size: 10 px;
+	flex: 1;
+  order: 1;
+}
+.headerline{
+	color: red;
+  font-size: 35px;
+  text-align: center;
+  flex: 2;
+  order: 2
+}
+.admission-class{
+  flex: 1;
+  order: 3;
+  text-align: right;
+  font-size: 2em;
+
+}
+.full{
+  background: gray;
+  display: flex;
+  margin: 30px;
+}
+.side1{
+   padding: 20px;
+   background-color: #f1f1f1;
+   flex: 3;
+   order: 1;
+}
+aside {
+  flex: 1;
+  order: 2;
+  background: #ccc;
+  padding: 20px;
+  font-size: 1.5em;
+  size: 20px;
+}
+.table-div{
+  margin: 20px;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
